@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.logo-img {
+  height: 10rem;
+}
+.cart-img {
+  height: 1.5rem;
+  width: auto;
+  max-height: 100%;
+  margin-left: 30px;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 20px;
+  color: black;
+
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.navbar ul li:hover {
+  border-radius: 5px;
+  background-color: rgb(223, 223, 223);
+  text-decoration: underline;
+}
+.sign-in {
+  display: flex;
+  justify-content: row;
+  flex-direction: row;
+}
+.sign-in button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(14, 14, 14);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 1rem;
+}

@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.header-text {
+  margin: 3rem;
+  display: flex;
+  align-items: center; /* Aligns items vertically in the middle */
+  justify-content: space-between; /* Distributes space evenly between the items */
+  gap: 8rem;
+}
+.header-text h2 {
+  line-height: 1.5; /* Adjust line spacing */
+  word-wrap: break-word; /* To break long words or phrases */
+}
+
+.collection-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh; /* Full viewport height */
+  margin: 0;
+  background-color: #f0f0f0; /* Background color for the whole page */
+}
+
+.collection-header {
+  text-align: center;
+  padding: 1rem;
+  line-height: 2; /* Adjust line spacing */
+  background-color: #49505d; /* Background color of the small block */
+  max-width: 500px; /* Control the width of the block */
+  width: 100%; /* Ensure it takes full width within the max-width */
+  margin: 0 auto; /* Center horizontally */
+  border-radius: 4px;
+  color: white;
+
+}
+
+.main-collection-title {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+
+.collection-img{
+    width: 100%; /* Ensure it takes full width within the max-width */
+
+
+}
+
+.welcome-container{
+height: 12vh; /* Full viewport height */
+padding: 2rem;
+text-align: center;
+line-height: 2; /* Adjust line spacing */
+background-color: #f0f0f0;
+
+
+}
+.welcome-container h2{
+letter-spacing: 2px;}
+

@@ -1,0 +1,60 @@
+.cards .card-img {
+  width: 23rem;
+  height: 28rem;
+  object-fit: cover;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 25rem;
+  height: 48rem;
+}
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.description {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(41, 41, 41);
+}
+.cards button {
+  background-color: #49505d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+
+  cursor: pointer;
+}
+button:hover {
+  background-color: #9b867b;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+}
+/*Popup msg for add to cart*/
+.popup {
+  position: fixed;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #459846;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

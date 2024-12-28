@@ -1,0 +1,50 @@
+.register-form p {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.delivery-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  min-height: 70vh;
+  margin: 3rem auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+.delivery-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.delivery-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.delivery-form button,
+.back-to-btn {
+  width: 30%;
+  padding: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delivery-form button:hover,
+.back-to-btn {
+  background-color: rgb(195, 195, 195);
+}
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}

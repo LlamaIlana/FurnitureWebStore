@@ -1,0 +1,66 @@
+.delivery img {
+  width: 8rem;
+  height: auto;
+}
+.delivery-container {
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 2rem;
+  width: 50vw;
+  height: 30vh;
+}
+.collect-container {
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 2rem;
+  width: 50vw;
+  height: 20vh;
+}
+.ship-btn {
+  background-color: #49505d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.ship-btn:hover {
+  background-color: #9b867b;
+}
+.back-to-cart {
+  margin: 2rem;
+  padding: 1rem;
+}
+.delivery {
+  display: flex;
+  justify-content: center;
+}
+.summary-section p {
+  font-size: 2rem;
+}
+.info-img {
+  width: 2rem !important;
+  height: auto !important;
+}
+.button-info {
+  background-color: white !important;
+  margin-left: 3px !important;
+  border: none;
+}
+.label-name {
+  font-size: x-large;
+  font-weight: 600;
+}
+.delivery-title {
+  font-size: medium;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.delivery-method {
+  background-color: rgb(233, 230, 230);
+  padding: 10px;
+  border-radius: 5px;
+}
